@@ -1,0 +1,62 @@
+@media screen and (max-width:700px) {
+    
+    header .container{
+        display: flex;
+        flex-direction: column;
+            }
+    
+    .logo{
+        margin-bottom: 20px;
+        width: 150px;
+    }
+    
+    .botao1{
+        margin-top: 5px;
+        width: 50%px;
+    }
+    
+    .botao2{
+        margin-top: 5px;
+        width: 50%px;
+    }
+    
+    .titulo{
+        display: flex;
+        width: 70%;
+    }
+    
+    .descricao{
+        display: flex;
+        width: 70%;
+    }
+    
+    .rodape{
+        display: none;
+    }
+
+    .container{
+        margin-left: 25px;
+    }
+
+    .owl-carousel{
+        margin-left: 25px;
+    }
+
+    .filme-principal{
+        margin-right: -25px;
+    }
+
+    .video-mp4{
+        display: none;
+        
+    }
+}
+
+
+    
+    @media screen and (min-width:1000px) {
+        .descricao{
+                width: 50%;
+            }   
+        
+        }
